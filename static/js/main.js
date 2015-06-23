@@ -4,5 +4,7 @@
 (function () {
 
   'use strict';
+  
+  document.querySelector('body').classList.add('loaded');
 
 })();

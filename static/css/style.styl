@@ -151,5 +151,26 @@ section#how
   h2
     margin-top 0
     
-
+body
+  header,
+  section,
+  footer
+    transition all 0.8s ease
+    opacity 0
+    transform translate(0, 100px)
+    
+  header
+    transition-delay 50ms
+  section
+    transition-delay 300ms
+  footer
+    transition-delay 450ms
+  
+    
+  &.loaded
+    header,
+    section,
+    footer
+      transform none
+      opacity 1
 
