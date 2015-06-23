@@ -5,6 +5,8 @@
 
   'use strict';
   
-  document.querySelector('body').classList.add('loaded');
+  setTimeout(function () {
+    document.querySelector('body').classList.add('loaded');
+  }, 50);
 
 })();
